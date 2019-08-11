@@ -26,11 +26,14 @@
   },
   "homepage": "https://github.com/lgeiger/node-abi#readme",
   "devDependencies": {
+    "bower": "^1.8.8",
+    "nw-version": "nwjs/website#master",
     "semantic-release": "^15.8.0",
     "tape": "^4.6.3",
     "travis-deploy-once": "^5.0.1"
   },
   "dependencies": {
+    "node-releases": "^1.1.27",
     "semver": "^5.4.1"
   }
 }
