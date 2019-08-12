@@ -2,10 +2,22 @@
 //  IMPORT AND CLEAN UP RELEASES:  //
 // /////////////////////////////// //
 
-let nodeReleases = require('node-releases/data/raw/nodejs.json');
+const semver = require('semver');
 const iojsReleases = require('node-releases/data/raw/iojs.json');
-const nwReleases = require('nw-version/src/versions.json').versions;
+let nodeReleases = require('node-releases/data/raw/nodejs.json');
+let nwReleases = require('nw-version/src/versions.json').versions;
 let internsSideProject = require('electron-releases/lite.json');
+
+function sortByVersion (releases) {
+  return releases.sort(function (a,b) {
+    if (semver.gt(a.version, b.version)) {
+      return -1;
+    } else if (semver.lt(a.version, b.version)) {
+      return 1;
+    }
+    return 0;
+  });
+}
 
 iojsReleases.forEach(function (release) {
   nodeReleases.push(release);
@@ -27,9 +39,9 @@ nodeReleases.forEach(function (release) {
   delete release.zlib;
 });
 nodeReleases = nodeReleases.filter(function (release) {
-  return release.modules;
+  return release.version && release.modules;
 });
-
+nodeReleases = sortByVersion(nodeReleases);
 
 nwReleases.forEach(function (release) {
   let nwNodeRelease = 'v' + release.components.node.split('-')[0];
@@ -42,12 +54,17 @@ nwReleases.forEach(function (release) {
   delete release.flavors;
   delete release.components;
 });
+nwReleases = nwReleases.filter(function (release) {
+  return release.modules && release.version;
+});
+nwReleases = sortByVersion(nwReleases);
 
 
 internsSideProject = internsSideProject.filter(function (jank) {
   return jank.version && jank.deps && jank.deps.modules;
 });
 internsSideProject.forEach(function (jank) {
+  jank.version = 'v' + jank.version;
   jank.modules = jank.deps.modules;
   delete jank.node_id;
   delete jank.tag_name;
@@ -59,10 +76,10 @@ internsSideProject.forEach(function (jank) {
   delete jank.npm_dist_tags;
   delete jank.total_downloads;
 });
+internsSideProject = sortByVersion(internsSideProject);
 
 
-
-const releases = {
+const allReleases = {
   /*
     [
       { version: 'v12.1.0',  modules: '72' },
@@ -96,9 +113,9 @@ const releases = {
 };
 
 try {
-  require('fs').writeFileSync('./data.json', JSON.stringify(releases, null, 2) + '\n');
+  require('fs').writeFileSync('./data.json', JSON.stringify(allReleases, null, 2) + '\n');
 } catch (err) {
   console.log(err);
 }
 
-exports.releases = releases;
+exports.releases = allReleases;
