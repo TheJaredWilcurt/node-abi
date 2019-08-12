@@ -1,0 +1,4260 @@
+{
+  "node": [
+    {
+      "version": "v12.8.0",
+      "modules": "72"
+    },
+    {
+      "version": "v12.7.0",
+      "modules": "72"
+    },
+    {
+      "version": "v12.6.0",
+      "modules": "72"
+    },
+    {
+      "version": "v12.5.0",
+      "modules": "72"
+    },
+    {
+      "version": "v12.4.0",
+      "modules": "72"
+    },
+    {
+      "version": "v12.3.1",
+      "modules": "72"
+    },
+    {
+      "version": "v12.3.0",
+      "modules": "72"
+    },
+    {
+      "version": "v12.2.0",
+      "modules": "72"
+    },
+    {
+      "version": "v12.1.0",
+      "modules": "72"
+    },
+    {
+      "version": "v12.0.0",
+      "modules": "72"
+    },
+    {
+      "version": "v11.15.0",
+      "modules": "67"
+    },
+    {
+      "version": "v11.14.0",
+      "modules": "67"
+    },
+    {
+      "version": "v11.13.0",
+      "modules": "67"
+    },
+    {
+      "version": "v11.12.0",
+      "modules": "67"
+    },
+    {
+      "version": "v11.11.0",
+      "modules": "67"
+    },
+    {
+      "version": "v11.10.1",
+      "modules": "67"
+    },
+    {
+      "version": "v11.10.0",
+      "modules": "67"
+    },
+    {
+      "version": "v11.9.0",
+      "modules": "67"
+    },
+    {
+      "version": "v11.8.0",
+      "modules": "67"
+    },
+    {
+      "version": "v11.7.0",
+      "modules": "67"
+    },
+    {
+      "version": "v11.6.0",
+      "modules": "67"
+    },
+    {
+      "version": "v11.5.0",
+      "modules": "67"
+    },
+    {
+      "version": "v11.4.0",
+      "modules": "67"
+    },
+    {
+      "version": "v11.3.0",
+      "modules": "67"
+    },
+    {
+      "version": "v11.2.0",
+      "modules": "67"
+    },
+    {
+      "version": "v11.1.0",
+      "modules": "67"
+    },
+    {
+      "version": "v11.0.0",
+      "modules": "67"
+    },
+    {
+      "version": "v10.16.2",
+      "modules": "64"
+    },
+    {
+      "version": "v10.16.1",
+      "modules": "64"
+    },
+    {
+      "version": "v10.16.0",
+      "modules": "64"
+    },
+    {
+      "version": "v10.15.3",
+      "modules": "64"
+    },
+    {
+      "version": "v10.15.2",
+      "modules": "64"
+    },
+    {
+      "version": "v10.15.1",
+      "modules": "64"
+    },
+    {
+      "version": "v10.15.0",
+      "modules": "64"
+    },
+    {
+      "version": "v10.14.2",
+      "modules": "64"
+    },
+    {
+      "version": "v10.14.1",
+      "modules": "64"
+    },
+    {
+      "version": "v10.14.0",
+      "modules": "64"
+    },
+    {
+      "version": "v10.13.0",
+      "modules": "64"
+    },
+    {
+      "version": "v10.12.0",
+      "modules": "64"
+    },
+    {
+      "version": "v10.11.0",
+      "modules": "64"
+    },
+    {
+      "version": "v10.10.0",
+      "modules": "64"
+    },
+    {
+      "version": "v10.9.0",
+      "modules": "64"
+    },
+    {
+      "version": "v10.8.0",
+      "modules": "64"
+    },
+    {
+      "version": "v10.7.0",
+      "modules": "64"
+    },
+    {
+      "version": "v10.6.0",
+      "modules": "64"
+    },
+    {
+      "version": "v10.5.0",
+      "modules": "64"
+    },
+    {
+      "version": "v10.4.1",
+      "modules": "64"
+    },
+    {
+      "version": "v10.4.0",
+      "modules": "64"
+    },
+    {
+      "version": "v10.3.0",
+      "modules": "64"
+    },
+    {
+      "version": "v10.2.1",
+      "modules": "64"
+    },
+    {
+      "version": "v10.2.0",
+      "modules": "64"
+    },
+    {
+      "version": "v10.1.0",
+      "modules": "64"
+    },
+    {
+      "version": "v10.0.0",
+      "modules": "64"
+    },
+    {
+      "version": "v9.11.2",
+      "modules": "59"
+    },
+    {
+      "version": "v9.11.1",
+      "modules": "59"
+    },
+    {
+      "version": "v9.11.0",
+      "modules": "59"
+    },
+    {
+      "version": "v9.10.1",
+      "modules": "59"
+    },
+    {
+      "version": "v9.10.0",
+      "modules": "59"
+    },
+    {
+      "version": "v9.9.0",
+      "modules": "59"
+    },
+    {
+      "version": "v9.8.0",
+      "modules": "59"
+    },
+    {
+      "version": "v9.7.1",
+      "modules": "59"
+    },
+    {
+      "version": "v9.7.0",
+      "modules": "59"
+    },
+    {
+      "version": "v9.6.1",
+      "modules": "59"
+    },
+    {
+      "version": "v9.6.0",
+      "modules": "59"
+    },
+    {
+      "version": "v9.5.0",
+      "modules": "59"
+    },
+    {
+      "version": "v9.4.0",
+      "modules": "59"
+    },
+    {
+      "version": "v9.3.0",
+      "modules": "59"
+    },
+    {
+      "version": "v9.2.1",
+      "modules": "59"
+    },
+    {
+      "version": "v9.2.0",
+      "modules": "59"
+    },
+    {
+      "version": "v9.1.0",
+      "modules": "59"
+    },
+    {
+      "version": "v9.0.0",
+      "modules": "59"
+    },
+    {
+      "version": "v8.16.0",
+      "modules": "57"
+    },
+    {
+      "version": "v8.15.1",
+      "modules": "57"
+    },
+    {
+      "version": "v8.15.0",
+      "modules": "57"
+    },
+    {
+      "version": "v8.14.1",
+      "modules": "57"
+    },
+    {
+      "version": "v8.14.0",
+      "modules": "57"
+    },
+    {
+      "version": "v8.13.0",
+      "modules": "57"
+    },
+    {
+      "version": "v8.12.0",
+      "modules": "57"
+    },
+    {
+      "version": "v8.11.4",
+      "modules": "57"
+    },
+    {
+      "version": "v8.11.3",
+      "modules": "57"
+    },
+    {
+      "version": "v8.11.2",
+      "modules": "57"
+    },
+    {
+      "version": "v8.11.1",
+      "modules": "57"
+    },
+    {
+      "version": "v8.11.0",
+      "modules": "57"
+    },
+    {
+      "version": "v8.10.0",
+      "modules": "57"
+    },
+    {
+      "version": "v8.9.4",
+      "modules": "57"
+    },
+    {
+      "version": "v8.9.3",
+      "modules": "57"
+    },
+    {
+      "version": "v8.9.2",
+      "modules": "57"
+    },
+    {
+      "version": "v8.9.1",
+      "modules": "57"
+    },
+    {
+      "version": "v8.9.0",
+      "modules": "57"
+    },
+    {
+      "version": "v8.8.1",
+      "modules": "57"
+    },
+    {
+      "version": "v8.8.0",
+      "modules": "57"
+    },
+    {
+      "version": "v8.7.0",
+      "modules": "57"
+    },
+    {
+      "version": "v8.6.0",
+      "modules": "57"
+    },
+    {
+      "version": "v8.5.0",
+      "modules": "57"
+    },
+    {
+      "version": "v8.4.0",
+      "modules": "57"
+    },
+    {
+      "version": "v8.3.0",
+      "modules": "57"
+    },
+    {
+      "version": "v8.2.1",
+      "modules": "57"
+    },
+    {
+      "version": "v8.2.0",
+      "modules": "57"
+    },
+    {
+      "version": "v8.1.4",
+      "modules": "57"
+    },
+    {
+      "version": "v8.1.3",
+      "modules": "57"
+    },
+    {
+      "version": "v8.1.2",
+      "modules": "57"
+    },
+    {
+      "version": "v8.1.1",
+      "modules": "57"
+    },
+    {
+      "version": "v8.1.0",
+      "modules": "57"
+    },
+    {
+      "version": "v8.0.0",
+      "modules": "57"
+    },
+    {
+      "version": "v7.10.1",
+      "modules": "51"
+    },
+    {
+      "version": "v7.10.0",
+      "modules": "51"
+    },
+    {
+      "version": "v7.9.0",
+      "modules": "51"
+    },
+    {
+      "version": "v7.8.0",
+      "modules": "51"
+    },
+    {
+      "version": "v7.7.4",
+      "modules": "51"
+    },
+    {
+      "version": "v7.7.3",
+      "modules": "51"
+    },
+    {
+      "version": "v7.7.2",
+      "modules": "51"
+    },
+    {
+      "version": "v7.7.1",
+      "modules": "51"
+    },
+    {
+      "version": "v7.7.0",
+      "modules": "51"
+    },
+    {
+      "version": "v7.6.0",
+      "modules": "51"
+    },
+    {
+      "version": "v7.5.0",
+      "modules": "51"
+    },
+    {
+      "version": "v7.4.0",
+      "modules": "51"
+    },
+    {
+      "version": "v7.3.0",
+      "modules": "51"
+    },
+    {
+      "version": "v7.2.1",
+      "modules": "51"
+    },
+    {
+      "version": "v7.2.0",
+      "modules": "51"
+    },
+    {
+      "version": "v7.1.0",
+      "modules": "51"
+    },
+    {
+      "version": "v7.0.0",
+      "modules": "51"
+    },
+    {
+      "version": "v6.17.1",
+      "modules": "48"
+    },
+    {
+      "version": "v6.17.0",
+      "modules": "48"
+    },
+    {
+      "version": "v6.16.0",
+      "modules": "48"
+    },
+    {
+      "version": "v6.15.1",
+      "modules": "48"
+    },
+    {
+      "version": "v6.15.0",
+      "modules": "48"
+    },
+    {
+      "version": "v6.14.4",
+      "modules": "48"
+    },
+    {
+      "version": "v6.14.3",
+      "modules": "48"
+    },
+    {
+      "version": "v6.14.2",
+      "modules": "48"
+    },
+    {
+      "version": "v6.14.1",
+      "modules": "48"
+    },
+    {
+      "version": "v6.14.0",
+      "modules": "48"
+    },
+    {
+      "version": "v6.13.1",
+      "modules": "48"
+    },
+    {
+      "version": "v6.13.0",
+      "modules": "48"
+    },
+    {
+      "version": "v6.12.3",
+      "modules": "48"
+    },
+    {
+      "version": "v6.12.2",
+      "modules": "48"
+    },
+    {
+      "version": "v6.12.1",
+      "modules": "48"
+    },
+    {
+      "version": "v6.12.0",
+      "modules": "48"
+    },
+    {
+      "version": "v6.11.5",
+      "modules": "48"
+    },
+    {
+      "version": "v6.11.4",
+      "modules": "48"
+    },
+    {
+      "version": "v6.11.3",
+      "modules": "48"
+    },
+    {
+      "version": "v6.11.2",
+      "modules": "48"
+    },
+    {
+      "version": "v6.11.1",
+      "modules": "48"
+    },
+    {
+      "version": "v6.11.0",
+      "modules": "48"
+    },
+    {
+      "version": "v6.10.3",
+      "modules": "48"
+    },
+    {
+      "version": "v6.10.2",
+      "modules": "48"
+    },
+    {
+      "version": "v6.10.1",
+      "modules": "48"
+    },
+    {
+      "version": "v6.10.0",
+      "modules": "48"
+    },
+    {
+      "version": "v6.9.5",
+      "modules": "48"
+    },
+    {
+      "version": "v6.9.4",
+      "modules": "48"
+    },
+    {
+      "version": "v6.9.3",
+      "modules": "48"
+    },
+    {
+      "version": "v6.9.2",
+      "modules": "48"
+    },
+    {
+      "version": "v6.9.1",
+      "modules": "48"
+    },
+    {
+      "version": "v6.9.0",
+      "modules": "48"
+    },
+    {
+      "version": "v6.8.1",
+      "modules": "48"
+    },
+    {
+      "version": "v6.8.0",
+      "modules": "48"
+    },
+    {
+      "version": "v6.7.0",
+      "modules": "48"
+    },
+    {
+      "version": "v6.6.0",
+      "modules": "48"
+    },
+    {
+      "version": "v6.5.0",
+      "modules": "48"
+    },
+    {
+      "version": "v6.4.0",
+      "modules": "48"
+    },
+    {
+      "version": "v6.3.1",
+      "modules": "48"
+    },
+    {
+      "version": "v6.3.0",
+      "modules": "48"
+    },
+    {
+      "version": "v6.2.2",
+      "modules": "48"
+    },
+    {
+      "version": "v6.2.1",
+      "modules": "48"
+    },
+    {
+      "version": "v6.2.0",
+      "modules": "48"
+    },
+    {
+      "version": "v6.1.0",
+      "modules": "48"
+    },
+    {
+      "version": "v6.0.0",
+      "modules": "48"
+    },
+    {
+      "version": "v5.12.0",
+      "modules": "47"
+    },
+    {
+      "version": "v5.11.1",
+      "modules": "47"
+    },
+    {
+      "version": "v5.11.0",
+      "modules": "47"
+    },
+    {
+      "version": "v5.10.1",
+      "modules": "47"
+    },
+    {
+      "version": "v5.10.0",
+      "modules": "47"
+    },
+    {
+      "version": "v5.9.1",
+      "modules": "47"
+    },
+    {
+      "version": "v5.9.0",
+      "modules": "47"
+    },
+    {
+      "version": "v5.8.0",
+      "modules": "47"
+    },
+    {
+      "version": "v5.7.1",
+      "modules": "47"
+    },
+    {
+      "version": "v5.7.0",
+      "modules": "47"
+    },
+    {
+      "version": "v5.6.0",
+      "modules": "47"
+    },
+    {
+      "version": "v5.5.0",
+      "modules": "47"
+    },
+    {
+      "version": "v5.4.1",
+      "modules": "47"
+    },
+    {
+      "version": "v5.4.0",
+      "modules": "47"
+    },
+    {
+      "version": "v5.3.0",
+      "modules": "47"
+    },
+    {
+      "version": "v5.2.0",
+      "modules": "47"
+    },
+    {
+      "version": "v5.1.1",
+      "modules": "47"
+    },
+    {
+      "version": "v5.1.0",
+      "modules": "47"
+    },
+    {
+      "version": "v5.0.0",
+      "modules": "47"
+    },
+    {
+      "version": "v4.9.1",
+      "modules": "46"
+    },
+    {
+      "version": "v4.9.0",
+      "modules": "46"
+    },
+    {
+      "version": "v4.8.7",
+      "modules": "46"
+    },
+    {
+      "version": "v4.8.6",
+      "modules": "46"
+    },
+    {
+      "version": "v4.8.5",
+      "modules": "46"
+    },
+    {
+      "version": "v4.8.4",
+      "modules": "46"
+    },
+    {
+      "version": "v4.8.3",
+      "modules": "46"
+    },
+    {
+      "version": "v4.8.2",
+      "modules": "46"
+    },
+    {
+      "version": "v4.8.1",
+      "modules": "46"
+    },
+    {
+      "version": "v4.8.0",
+      "modules": "46"
+    },
+    {
+      "version": "v4.7.3",
+      "modules": "46"
+    },
+    {
+      "version": "v4.7.2",
+      "modules": "46"
+    },
+    {
+      "version": "v4.7.1",
+      "modules": "46"
+    },
+    {
+      "version": "v4.7.0",
+      "modules": "46"
+    },
+    {
+      "version": "v4.6.2",
+      "modules": "46"
+    },
+    {
+      "version": "v4.6.1",
+      "modules": "46"
+    },
+    {
+      "version": "v4.6.0",
+      "modules": "46"
+    },
+    {
+      "version": "v4.5.0",
+      "modules": "46"
+    },
+    {
+      "version": "v4.4.7",
+      "modules": "46"
+    },
+    {
+      "version": "v4.4.6",
+      "modules": "46"
+    },
+    {
+      "version": "v4.4.5",
+      "modules": "46"
+    },
+    {
+      "version": "v4.4.4",
+      "modules": "46"
+    },
+    {
+      "version": "v4.4.3",
+      "modules": "46"
+    },
+    {
+      "version": "v4.4.2",
+      "modules": "46"
+    },
+    {
+      "version": "v4.4.1",
+      "modules": "46"
+    },
+    {
+      "version": "v4.4.0",
+      "modules": "46"
+    },
+    {
+      "version": "v4.3.2",
+      "modules": "46"
+    },
+    {
+      "version": "v4.3.1",
+      "modules": "46"
+    },
+    {
+      "version": "v4.3.0",
+      "modules": "46"
+    },
+    {
+      "version": "v4.2.6",
+      "modules": "46"
+    },
+    {
+      "version": "v4.2.5",
+      "modules": "46"
+    },
+    {
+      "version": "v4.2.4",
+      "modules": "46"
+    },
+    {
+      "version": "v4.2.3",
+      "modules": "46"
+    },
+    {
+      "version": "v4.2.2",
+      "modules": "46"
+    },
+    {
+      "version": "v4.2.1",
+      "modules": "46"
+    },
+    {
+      "version": "v4.2.0",
+      "modules": "46"
+    },
+    {
+      "version": "v4.1.2",
+      "modules": "46"
+    },
+    {
+      "version": "v4.1.1",
+      "modules": "46"
+    },
+    {
+      "version": "v4.1.0",
+      "modules": "46"
+    },
+    {
+      "version": "v4.0.0",
+      "modules": "46"
+    },
+    {
+      "version": "v0.12.18",
+      "modules": "14"
+    },
+    {
+      "version": "v0.12.17",
+      "modules": "14"
+    },
+    {
+      "version": "v0.12.16",
+      "modules": "14"
+    },
+    {
+      "version": "v0.12.15",
+      "modules": "14"
+    },
+    {
+      "version": "v0.12.14",
+      "modules": "14"
+    },
+    {
+      "version": "v0.12.13",
+      "modules": "14"
+    },
+    {
+      "version": "v0.12.12",
+      "modules": "14"
+    },
+    {
+      "version": "v0.12.11",
+      "modules": "14"
+    },
+    {
+      "version": "v0.12.10",
+      "modules": "14"
+    },
+    {
+      "version": "v0.12.9",
+      "modules": "14"
+    },
+    {
+      "version": "v0.12.8",
+      "modules": "14"
+    },
+    {
+      "version": "v0.12.7",
+      "modules": "14"
+    },
+    {
+      "version": "v0.12.6",
+      "modules": "14"
+    },
+    {
+      "version": "v0.12.5",
+      "modules": "14"
+    },
+    {
+      "version": "v0.12.4",
+      "modules": "14"
+    },
+    {
+      "version": "v0.12.3",
+      "modules": "14"
+    },
+    {
+      "version": "v0.12.2",
+      "modules": "14"
+    },
+    {
+      "version": "v0.12.1",
+      "modules": "14"
+    },
+    {
+      "version": "v0.12.0",
+      "modules": "14"
+    },
+    {
+      "version": "v0.11.16",
+      "modules": "14"
+    },
+    {
+      "version": "v0.11.15",
+      "modules": "14"
+    },
+    {
+      "version": "v0.11.14",
+      "modules": "14"
+    },
+    {
+      "version": "v0.11.13",
+      "modules": "14"
+    },
+    {
+      "version": "v0.11.12",
+      "modules": "14"
+    },
+    {
+      "version": "v0.11.11",
+      "modules": "14"
+    },
+    {
+      "version": "v0.11.10",
+      "modules": "13"
+    },
+    {
+      "version": "v0.11.9",
+      "modules": "13"
+    },
+    {
+      "version": "v0.11.8",
+      "modules": "13"
+    },
+    {
+      "version": "v0.11.7",
+      "modules": "12"
+    },
+    {
+      "version": "v0.11.6",
+      "modules": "12"
+    },
+    {
+      "version": "v0.11.5",
+      "modules": "12"
+    },
+    {
+      "version": "v0.11.4",
+      "modules": "12"
+    },
+    {
+      "version": "v0.11.3",
+      "modules": "12"
+    },
+    {
+      "version": "v0.11.2",
+      "modules": "12"
+    },
+    {
+      "version": "v0.11.1",
+      "modules": "12"
+    },
+    {
+      "version": "v0.11.0",
+      "modules": "12"
+    },
+    {
+      "version": "v0.10.48",
+      "modules": "11"
+    },
+    {
+      "version": "v0.10.47",
+      "modules": "11"
+    },
+    {
+      "version": "v0.10.46",
+      "modules": "11"
+    },
+    {
+      "version": "v0.10.45",
+      "modules": "11"
+    },
+    {
+      "version": "v0.10.44",
+      "modules": "11"
+    },
+    {
+      "version": "v0.10.43",
+      "modules": "11"
+    },
+    {
+      "version": "v0.10.42",
+      "modules": "11"
+    },
+    {
+      "version": "v0.10.41",
+      "modules": "11"
+    },
+    {
+      "version": "v0.10.40",
+      "modules": "11"
+    },
+    {
+      "version": "v0.10.39",
+      "modules": "11"
+    },
+    {
+      "version": "v0.10.38",
+      "modules": "11"
+    },
+    {
+      "version": "v0.10.37",
+      "modules": "11"
+    },
+    {
+      "version": "v0.10.36",
+      "modules": "11"
+    },
+    {
+      "version": "v0.10.35",
+      "modules": "11"
+    },
+    {
+      "version": "v0.10.34",
+      "modules": "11"
+    },
+    {
+      "version": "v0.10.33",
+      "modules": "11"
+    },
+    {
+      "version": "v0.10.32",
+      "modules": "11"
+    },
+    {
+      "version": "v0.10.31",
+      "modules": "11"
+    },
+    {
+      "version": "v0.10.30",
+      "modules": "11"
+    },
+    {
+      "version": "v0.10.29",
+      "modules": "11"
+    },
+    {
+      "version": "v0.10.28",
+      "modules": "11"
+    },
+    {
+      "version": "v0.10.27",
+      "modules": "11"
+    },
+    {
+      "version": "v0.10.26",
+      "modules": "11"
+    },
+    {
+      "version": "v0.10.25",
+      "modules": "11"
+    },
+    {
+      "version": "v0.10.24",
+      "modules": "11"
+    },
+    {
+      "version": "v0.10.23",
+      "modules": "11"
+    },
+    {
+      "version": "v0.10.22",
+      "modules": "11"
+    },
+    {
+      "version": "v0.10.21",
+      "modules": "11"
+    },
+    {
+      "version": "v0.10.20",
+      "modules": "11"
+    },
+    {
+      "version": "v0.10.19",
+      "modules": "11"
+    },
+    {
+      "version": "v0.10.18",
+      "modules": "11"
+    },
+    {
+      "version": "v0.10.17",
+      "modules": "11"
+    },
+    {
+      "version": "v0.10.16",
+      "modules": "11"
+    },
+    {
+      "version": "v0.10.15",
+      "modules": "11"
+    },
+    {
+      "version": "v0.10.14",
+      "modules": "11"
+    },
+    {
+      "version": "v0.10.13",
+      "modules": "11"
+    },
+    {
+      "version": "v0.10.12",
+      "modules": "11"
+    },
+    {
+      "version": "v0.10.11",
+      "modules": "11"
+    },
+    {
+      "version": "v0.10.10",
+      "modules": "11"
+    },
+    {
+      "version": "v0.10.9",
+      "modules": "11"
+    },
+    {
+      "version": "v0.10.8",
+      "modules": "11"
+    },
+    {
+      "version": "v0.10.7",
+      "modules": "11"
+    },
+    {
+      "version": "v0.10.6",
+      "modules": "11"
+    },
+    {
+      "version": "v0.10.5",
+      "modules": "11"
+    },
+    {
+      "version": "v0.10.4",
+      "modules": "11"
+    },
+    {
+      "version": "v0.10.3",
+      "modules": "11"
+    },
+    {
+      "version": "v0.10.2",
+      "modules": "11"
+    },
+    {
+      "version": "v0.10.1",
+      "modules": "11"
+    },
+    {
+      "version": "v0.10.0",
+      "modules": "11"
+    },
+    {
+      "version": "v0.9.12",
+      "modules": "11"
+    },
+    {
+      "version": "v0.9.11",
+      "modules": "11"
+    },
+    {
+      "version": "v0.9.10",
+      "modules": "11"
+    },
+    {
+      "version": "v0.9.9",
+      "modules": "11"
+    },
+    {
+      "version": "v0.9.8",
+      "modules": "10"
+    },
+    {
+      "version": "v0.9.7",
+      "modules": "10"
+    },
+    {
+      "version": "v0.9.6",
+      "modules": "10"
+    },
+    {
+      "version": "v0.9.5",
+      "modules": "10"
+    },
+    {
+      "version": "v0.9.4",
+      "modules": "10"
+    },
+    {
+      "version": "v0.9.3",
+      "modules": "10"
+    },
+    {
+      "version": "v0.9.2",
+      "modules": "10"
+    },
+    {
+      "version": "v0.9.1",
+      "modules": "10"
+    },
+    {
+      "version": "v0.9.0",
+      "modules": "1"
+    },
+    {
+      "version": "v0.8.28",
+      "modules": "1"
+    },
+    {
+      "version": "v0.8.27",
+      "modules": "1"
+    },
+    {
+      "version": "v0.8.26",
+      "modules": "1"
+    },
+    {
+      "version": "v0.8.25",
+      "modules": "1"
+    },
+    {
+      "version": "v0.8.24",
+      "modules": "1"
+    },
+    {
+      "version": "v0.8.23",
+      "modules": "1"
+    },
+    {
+      "version": "v0.8.22",
+      "modules": "1"
+    },
+    {
+      "version": "v0.8.21",
+      "modules": "1"
+    },
+    {
+      "version": "v0.8.20",
+      "modules": "1"
+    },
+    {
+      "version": "v0.8.19",
+      "modules": "1"
+    },
+    {
+      "version": "v0.8.18",
+      "modules": "1"
+    },
+    {
+      "version": "v0.8.17",
+      "modules": "1"
+    },
+    {
+      "version": "v0.8.16",
+      "modules": "1"
+    },
+    {
+      "version": "v0.8.15",
+      "modules": "1"
+    },
+    {
+      "version": "v0.8.14",
+      "modules": "1"
+    },
+    {
+      "version": "v0.8.13",
+      "modules": "1"
+    },
+    {
+      "version": "v0.8.12",
+      "modules": "1"
+    },
+    {
+      "version": "v0.8.11",
+      "modules": "1"
+    },
+    {
+      "version": "v0.8.10",
+      "modules": "1"
+    },
+    {
+      "version": "v0.8.9",
+      "modules": "1"
+    },
+    {
+      "version": "v0.8.8",
+      "modules": "1"
+    },
+    {
+      "version": "v0.8.7",
+      "modules": "1"
+    },
+    {
+      "version": "v0.8.6",
+      "modules": "1"
+    },
+    {
+      "version": "v0.8.5",
+      "modules": "1"
+    },
+    {
+      "version": "v0.8.4",
+      "modules": "1"
+    },
+    {
+      "version": "v0.8.3",
+      "modules": "1"
+    },
+    {
+      "version": "v0.8.2",
+      "modules": "1"
+    },
+    {
+      "version": "v0.8.1",
+      "modules": "1"
+    },
+    {
+      "version": "v0.8.0",
+      "modules": "1"
+    },
+    {
+      "version": "v0.7.12",
+      "modules": "1"
+    },
+    {
+      "version": "v0.7.11",
+      "modules": "1"
+    },
+    {
+      "version": "v0.7.10",
+      "modules": "1"
+    },
+    {
+      "version": "v0.7.9",
+      "modules": "1"
+    },
+    {
+      "version": "v0.7.8",
+      "modules": "1"
+    },
+    {
+      "version": "v0.7.7",
+      "modules": "1"
+    },
+    {
+      "version": "v0.7.6",
+      "modules": "1"
+    },
+    {
+      "version": "v0.7.5",
+      "modules": "1"
+    },
+    {
+      "version": "v0.7.4",
+      "modules": "1"
+    },
+    {
+      "version": "v0.7.3",
+      "modules": "1"
+    },
+    {
+      "version": "v0.7.2",
+      "modules": "1"
+    },
+    {
+      "version": "v0.7.1",
+      "modules": "1"
+    },
+    {
+      "version": "v0.7.0",
+      "modules": "1"
+    },
+    {
+      "version": "v0.6.21",
+      "modules": "1"
+    },
+    {
+      "version": "v0.6.20",
+      "modules": "1"
+    },
+    {
+      "version": "v0.6.19",
+      "modules": "1"
+    },
+    {
+      "version": "v0.6.18",
+      "modules": "1"
+    },
+    {
+      "version": "v0.6.17",
+      "modules": "1"
+    },
+    {
+      "version": "v0.6.16",
+      "modules": "1"
+    },
+    {
+      "version": "v0.6.15",
+      "modules": "1"
+    },
+    {
+      "version": "v0.6.14",
+      "modules": "1"
+    },
+    {
+      "version": "v0.6.13",
+      "modules": "1"
+    },
+    {
+      "version": "v0.6.12",
+      "modules": "1"
+    },
+    {
+      "version": "v0.6.11",
+      "modules": "1"
+    },
+    {
+      "version": "v0.6.10",
+      "modules": "1"
+    },
+    {
+      "version": "v0.6.9",
+      "modules": "1"
+    },
+    {
+      "version": "v0.6.8",
+      "modules": "1"
+    },
+    {
+      "version": "v0.6.7",
+      "modules": "1"
+    },
+    {
+      "version": "v0.6.6",
+      "modules": "1"
+    },
+    {
+      "version": "v0.6.5",
+      "modules": "1"
+    },
+    {
+      "version": "v0.6.4",
+      "modules": "1"
+    },
+    {
+      "version": "v0.6.3",
+      "modules": "1"
+    },
+    {
+      "version": "v0.6.2",
+      "modules": "1"
+    },
+    {
+      "version": "v0.6.1",
+      "modules": "1"
+    },
+    {
+      "version": "v0.6.0",
+      "modules": "1"
+    },
+    {
+      "version": "v0.5.10",
+      "modules": "1"
+    },
+    {
+      "version": "v0.5.9",
+      "modules": "1"
+    },
+    {
+      "version": "v0.5.8",
+      "modules": "1"
+    },
+    {
+      "version": "v0.5.7",
+      "modules": "1"
+    },
+    {
+      "version": "v0.5.6",
+      "modules": "1"
+    },
+    {
+      "version": "v0.5.5",
+      "modules": "1"
+    },
+    {
+      "version": "v0.5.4",
+      "modules": "1"
+    },
+    {
+      "version": "v0.5.3",
+      "modules": "1"
+    },
+    {
+      "version": "v0.5.2",
+      "modules": "1"
+    },
+    {
+      "version": "v0.5.1",
+      "modules": "1"
+    },
+    {
+      "version": "v0.5.0",
+      "modules": "1"
+    },
+    {
+      "version": "v0.4.12",
+      "modules": "1"
+    },
+    {
+      "version": "v0.4.11",
+      "modules": "1"
+    },
+    {
+      "version": "v0.4.10",
+      "modules": "1"
+    },
+    {
+      "version": "v0.4.9",
+      "modules": "1"
+    },
+    {
+      "version": "v0.4.8",
+      "modules": "1"
+    },
+    {
+      "version": "v0.4.7",
+      "modules": "1"
+    },
+    {
+      "version": "v0.4.6",
+      "modules": "1"
+    },
+    {
+      "version": "v0.4.5",
+      "modules": "1"
+    },
+    {
+      "version": "v0.4.4",
+      "modules": "1"
+    },
+    {
+      "version": "v0.4.3",
+      "modules": "1"
+    },
+    {
+      "version": "v0.4.2",
+      "modules": "1"
+    },
+    {
+      "version": "v0.4.1",
+      "modules": "1"
+    },
+    {
+      "version": "v0.4.0",
+      "modules": "1"
+    },
+    {
+      "version": "v0.3.8",
+      "modules": "1"
+    },
+    {
+      "version": "v0.3.7",
+      "modules": "1"
+    },
+    {
+      "version": "v0.3.6",
+      "modules": "1"
+    },
+    {
+      "version": "v0.3.5",
+      "modules": "1"
+    },
+    {
+      "version": "v0.3.4",
+      "modules": "1"
+    },
+    {
+      "version": "v0.3.3",
+      "modules": "1"
+    },
+    {
+      "version": "v0.3.2",
+      "modules": "1"
+    },
+    {
+      "version": "v0.3.1",
+      "modules": "1"
+    },
+    {
+      "version": "v0.3.0",
+      "modules": "1"
+    },
+    {
+      "version": "v0.2.6",
+      "modules": "1"
+    },
+    {
+      "version": "v0.2.5",
+      "modules": "1"
+    },
+    {
+      "version": "v0.2.4",
+      "modules": "1"
+    },
+    {
+      "version": "v0.2.3",
+      "modules": "1"
+    },
+    {
+      "version": "v0.2.2",
+      "modules": "1"
+    },
+    {
+      "version": "v0.2.1",
+      "modules": "1"
+    },
+    {
+      "version": "v0.2.0",
+      "modules": "1"
+    },
+    {
+      "version": "v3.3.1",
+      "modules": "45"
+    },
+    {
+      "version": "v3.3.0",
+      "modules": "45"
+    },
+    {
+      "version": "v3.2.0",
+      "modules": "45"
+    },
+    {
+      "version": "v3.1.0",
+      "modules": "45"
+    },
+    {
+      "version": "v3.0.0",
+      "modules": "45"
+    },
+    {
+      "version": "v2.5.0",
+      "modules": "44"
+    },
+    {
+      "version": "v2.4.0",
+      "modules": "44"
+    },
+    {
+      "version": "v2.3.4",
+      "modules": "44"
+    },
+    {
+      "version": "v2.3.3",
+      "modules": "44"
+    },
+    {
+      "version": "v2.3.2",
+      "modules": "44"
+    },
+    {
+      "version": "v2.3.1",
+      "modules": "44"
+    },
+    {
+      "version": "v2.3.0",
+      "modules": "44"
+    },
+    {
+      "version": "v2.2.1",
+      "modules": "44"
+    },
+    {
+      "version": "v2.2.0",
+      "modules": "44"
+    },
+    {
+      "version": "v2.1.0",
+      "modules": "44"
+    },
+    {
+      "version": "v2.0.2",
+      "modules": "44"
+    },
+    {
+      "version": "v2.0.1",
+      "modules": "44"
+    },
+    {
+      "version": "v2.0.0",
+      "modules": "44"
+    },
+    {
+      "version": "v1.8.4",
+      "modules": "43"
+    },
+    {
+      "version": "v1.8.3",
+      "modules": "43"
+    },
+    {
+      "version": "v1.8.2",
+      "modules": "43"
+    },
+    {
+      "version": "v1.8.1",
+      "modules": "43"
+    },
+    {
+      "version": "v1.7.1",
+      "modules": "43"
+    },
+    {
+      "version": "v1.6.4",
+      "modules": "43"
+    },
+    {
+      "version": "v1.6.3",
+      "modules": "43"
+    },
+    {
+      "version": "v1.6.2",
+      "modules": "43"
+    },
+    {
+      "version": "v1.6.1",
+      "modules": "43"
+    },
+    {
+      "version": "v1.6.0",
+      "modules": "43"
+    },
+    {
+      "version": "v1.5.1",
+      "modules": "43"
+    },
+    {
+      "version": "v1.5.0",
+      "modules": "43"
+    },
+    {
+      "version": "v1.4.3",
+      "modules": "43"
+    },
+    {
+      "version": "v1.4.2",
+      "modules": "43"
+    },
+    {
+      "version": "v1.4.1",
+      "modules": "43"
+    },
+    {
+      "version": "v1.3.0",
+      "modules": "43"
+    },
+    {
+      "version": "v1.2.0",
+      "modules": "43"
+    },
+    {
+      "version": "v1.1.0",
+      "modules": "43"
+    },
+    {
+      "version": "v1.0.4",
+      "modules": "42"
+    },
+    {
+      "version": "v1.0.3",
+      "modules": "42"
+    },
+    {
+      "version": "v1.0.2",
+      "modules": "42"
+    },
+    {
+      "version": "v1.0.1",
+      "modules": "42"
+    },
+    {
+      "version": "v1.0.0",
+      "modules": "42"
+    }
+  ],
+  "nw": [
+    {
+      "version": "v0.40.1",
+      "modules": "72"
+    },
+    {
+      "version": "v0.40.0",
+      "modules": "72"
+    },
+    {
+      "version": "v0.39.3",
+      "modules": "72"
+    },
+    {
+      "version": "v0.40.0-beta1",
+      "modules": "72"
+    },
+    {
+      "version": "v0.39.2",
+      "modules": "72"
+    },
+    {
+      "version": "v0.39.1",
+      "modules": "72"
+    },
+    {
+      "version": "v0.39.0",
+      "modules": "72"
+    },
+    {
+      "version": "v0.38.4",
+      "modules": "72"
+    },
+    {
+      "version": "v0.39.0-beta1",
+      "modules": "72"
+    },
+    {
+      "version": "v0.38.3",
+      "modules": "72"
+    },
+    {
+      "version": "v0.38.2",
+      "modules": "72"
+    },
+    {
+      "version": "v0.38.1",
+      "modules": "72"
+    },
+    {
+      "version": "v0.38.0",
+      "modules": "67"
+    },
+    {
+      "version": "v0.37.4",
+      "modules": "67"
+    },
+    {
+      "version": "v0.37.3",
+      "modules": "67"
+    },
+    {
+      "version": "v0.38.0-beta1",
+      "modules": "67"
+    },
+    {
+      "version": "v0.37.2",
+      "modules": "67"
+    },
+    {
+      "version": "v0.37.1",
+      "modules": "67"
+    },
+    {
+      "version": "v0.37.0",
+      "modules": "67"
+    },
+    {
+      "version": "v0.36.4",
+      "modules": "67"
+    },
+    {
+      "version": "v0.36.3",
+      "modules": "67"
+    },
+    {
+      "version": "v0.37.0-beta1",
+      "modules": "67"
+    },
+    {
+      "version": "v0.36.2",
+      "modules": "67"
+    },
+    {
+      "version": "v0.36.1",
+      "modules": "67"
+    },
+    {
+      "version": "v0.36.0",
+      "modules": "67"
+    },
+    {
+      "version": "v0.35.5",
+      "modules": "67"
+    },
+    {
+      "version": "v0.35.4",
+      "modules": "67"
+    },
+    {
+      "version": "v0.35.3",
+      "modules": "67"
+    },
+    {
+      "version": "v0.36.0-beta1",
+      "modules": "67"
+    },
+    {
+      "version": "v0.35.2",
+      "modules": "67"
+    },
+    {
+      "version": "v0.35.1",
+      "modules": "67"
+    },
+    {
+      "version": "v0.35.0",
+      "modules": "67"
+    },
+    {
+      "version": "v0.34.5",
+      "modules": "67"
+    },
+    {
+      "version": "v0.34.4",
+      "modules": "67"
+    },
+    {
+      "version": "v0.34.3",
+      "modules": "67"
+    },
+    {
+      "version": "v0.35.0-beta1",
+      "modules": "67"
+    },
+    {
+      "version": "v0.34.2",
+      "modules": "67"
+    },
+    {
+      "version": "v0.34.1",
+      "modules": "67"
+    },
+    {
+      "version": "v0.34.0",
+      "modules": "67"
+    },
+    {
+      "version": "v0.33.4",
+      "modules": "64"
+    },
+    {
+      "version": "v0.34.0-beta1",
+      "modules": "67"
+    },
+    {
+      "version": "v0.33.3",
+      "modules": "64"
+    },
+    {
+      "version": "v0.33.2",
+      "modules": "64"
+    },
+    {
+      "version": "v0.33.1",
+      "modules": "64"
+    },
+    {
+      "version": "v0.33.0",
+      "modules": "64"
+    },
+    {
+      "version": "v0.32.4",
+      "modules": "64"
+    },
+    {
+      "version": "v0.32.3",
+      "modules": "64"
+    },
+    {
+      "version": "v0.33.0-beta1",
+      "modules": "64"
+    },
+    {
+      "version": "v0.32.2",
+      "modules": "64"
+    },
+    {
+      "version": "v0.32.1",
+      "modules": "64"
+    },
+    {
+      "version": "v0.32.0",
+      "modules": "64"
+    },
+    {
+      "version": "v0.31.5",
+      "modules": "64"
+    },
+    {
+      "version": "v0.31.4",
+      "modules": "64"
+    },
+    {
+      "version": "v0.31.3",
+      "modules": "64"
+    },
+    {
+      "version": "v0.32.0-beta1",
+      "modules": "64"
+    },
+    {
+      "version": "v0.31.2",
+      "modules": "64"
+    },
+    {
+      "version": "v0.31.1",
+      "modules": "64"
+    },
+    {
+      "version": "v0.31.0",
+      "modules": "64"
+    },
+    {
+      "version": "v0.30.5",
+      "modules": "64"
+    },
+    {
+      "version": "v0.30.4",
+      "modules": "64"
+    },
+    {
+      "version": "v0.30.3",
+      "modules": "64"
+    },
+    {
+      "version": "v0.31.0-beta1",
+      "modules": "64"
+    },
+    {
+      "version": "v0.30.2",
+      "modules": "64"
+    },
+    {
+      "version": "v0.30.1",
+      "modules": "64"
+    },
+    {
+      "version": "v0.30.0",
+      "modules": "59"
+    },
+    {
+      "version": "v0.29.4",
+      "modules": "59"
+    },
+    {
+      "version": "v0.29.3",
+      "modules": "59"
+    },
+    {
+      "version": "v0.30.0-beta1",
+      "modules": "59"
+    },
+    {
+      "version": "v0.29.2",
+      "modules": "59"
+    },
+    {
+      "version": "v0.29.1",
+      "modules": "59"
+    },
+    {
+      "version": "v0.29.0",
+      "modules": "59"
+    },
+    {
+      "version": "v0.28.3",
+      "modules": "59"
+    },
+    {
+      "version": "v0.29.0-beta1",
+      "modules": "59"
+    },
+    {
+      "version": "v0.28.2",
+      "modules": "59"
+    },
+    {
+      "version": "v0.28.1",
+      "modules": "59"
+    },
+    {
+      "version": "v0.28.0",
+      "modules": "59"
+    },
+    {
+      "version": "v0.27.5",
+      "modules": "59"
+    },
+    {
+      "version": "v0.27.4",
+      "modules": "59"
+    },
+    {
+      "version": "v0.27.3",
+      "modules": "59"
+    },
+    {
+      "version": "v0.28.0-beta1",
+      "modules": "59"
+    },
+    {
+      "version": "v0.27.2",
+      "modules": "59"
+    },
+    {
+      "version": "v0.27.1",
+      "modules": "59"
+    },
+    {
+      "version": "v0.27.0",
+      "modules": "59"
+    },
+    {
+      "version": "v0.26.6",
+      "modules": "59"
+    },
+    {
+      "version": "v0.26.5",
+      "modules": "59"
+    },
+    {
+      "version": "v0.26.4",
+      "modules": "59"
+    },
+    {
+      "version": "v0.26.3",
+      "modules": "59"
+    },
+    {
+      "version": "v0.27.0-beta1",
+      "modules": "57"
+    },
+    {
+      "version": "v0.26.2",
+      "modules": "57"
+    },
+    {
+      "version": "v0.26.1",
+      "modules": "57"
+    },
+    {
+      "version": "v0.26.0",
+      "modules": "57"
+    },
+    {
+      "version": "v0.25.4",
+      "modules": "57"
+    },
+    {
+      "version": "v0.25.3",
+      "modules": "57"
+    },
+    {
+      "version": "v0.26.0-beta1",
+      "modules": "57"
+    },
+    {
+      "version": "v0.25.2",
+      "modules": "57"
+    },
+    {
+      "version": "v0.25.1",
+      "modules": "57"
+    },
+    {
+      "version": "v0.25.0",
+      "modules": "57"
+    },
+    {
+      "version": "v0.24.4",
+      "modules": "57"
+    },
+    {
+      "version": "v0.24.3",
+      "modules": "57"
+    },
+    {
+      "version": "v0.25.0-beta1",
+      "modules": "57"
+    },
+    {
+      "version": "v0.24.2",
+      "modules": "57"
+    },
+    {
+      "version": "v0.24.1",
+      "modules": "57"
+    },
+    {
+      "version": "v0.24.0",
+      "modules": "57"
+    },
+    {
+      "version": "v0.23.7",
+      "modules": "57"
+    },
+    {
+      "version": "v0.23.6",
+      "modules": "57"
+    },
+    {
+      "version": "v0.23.5",
+      "modules": "57"
+    },
+    {
+      "version": "v0.23.4",
+      "modules": "57"
+    },
+    {
+      "version": "v0.23.3",
+      "modules": "57"
+    },
+    {
+      "version": "v0.24.0-beta1",
+      "modules": "57"
+    },
+    {
+      "version": "v0.23.2",
+      "modules": "57"
+    },
+    {
+      "version": "v0.23.1",
+      "modules": "57"
+    },
+    {
+      "version": "v0.23.0",
+      "modules": "57"
+    },
+    {
+      "version": "v0.22.3",
+      "modules": "51"
+    },
+    {
+      "version": "v0.22.2",
+      "modules": "51"
+    },
+    {
+      "version": "v0.22.1",
+      "modules": "51"
+    },
+    {
+      "version": "v0.23.0-beta1",
+      "modules": "51"
+    },
+    {
+      "version": "v0.22.0",
+      "modules": "51"
+    },
+    {
+      "version": "v0.21.6",
+      "modules": "51"
+    },
+    {
+      "version": "v0.21.5",
+      "modules": "51"
+    },
+    {
+      "version": "v0.21.4",
+      "modules": "51"
+    },
+    {
+      "version": "v0.22.0-beta1",
+      "modules": "51"
+    },
+    {
+      "version": "v0.21.3",
+      "modules": "51"
+    },
+    {
+      "version": "v0.21.2",
+      "modules": "51"
+    },
+    {
+      "version": "v0.21.1",
+      "modules": "51"
+    },
+    {
+      "version": "v0.21.0",
+      "modules": "51"
+    },
+    {
+      "version": "v0.20.3",
+      "modules": "51"
+    },
+    {
+      "version": "v0.21.0-rc1",
+      "modules": "51"
+    },
+    {
+      "version": "v0.20.2",
+      "modules": "51"
+    },
+    {
+      "version": "v0.21.0-beta1",
+      "modules": "51"
+    },
+    {
+      "version": "v0.20.1",
+      "modules": "51"
+    },
+    {
+      "version": "v0.20.0",
+      "modules": "51"
+    },
+    {
+      "version": "v0.20.0-rc1",
+      "modules": "51"
+    },
+    {
+      "version": "v0.19.5",
+      "modules": "51"
+    },
+    {
+      "version": "v0.20.0-beta2",
+      "modules": "51"
+    },
+    {
+      "version": "v0.19.4",
+      "modules": "51"
+    },
+    {
+      "version": "v0.19.3",
+      "modules": "51"
+    },
+    {
+      "version": "v0.20.0-beta1",
+      "modules": "51"
+    },
+    {
+      "version": "v0.19.2",
+      "modules": "51"
+    },
+    {
+      "version": "v0.19.1",
+      "modules": "51"
+    },
+    {
+      "version": "v0.19.0",
+      "modules": "51"
+    },
+    {
+      "version": "v0.18.8",
+      "modules": "51"
+    },
+    {
+      "version": "v0.19.0-rc1",
+      "modules": "51"
+    },
+    {
+      "version": "v0.18.7",
+      "modules": "51"
+    },
+    {
+      "version": "v0.18.6",
+      "modules": "51"
+    },
+    {
+      "version": "v0.18.5",
+      "modules": "51"
+    },
+    {
+      "version": "v0.19.0-beta1",
+      "modules": "51"
+    },
+    {
+      "version": "v0.18.4",
+      "modules": "51"
+    },
+    {
+      "version": "v0.18.3",
+      "modules": "51"
+    },
+    {
+      "version": "v0.18.2",
+      "modules": "48"
+    },
+    {
+      "version": "v0.18.1",
+      "modules": "48"
+    },
+    {
+      "version": "v0.18.0",
+      "modules": "48"
+    },
+    {
+      "version": "v0.17.6",
+      "modules": "48"
+    },
+    {
+      "version": "v0.17.5",
+      "modules": "48"
+    },
+    {
+      "version": "v0.18.0-rc1",
+      "modules": "48"
+    },
+    {
+      "version": "v0.17.4",
+      "modules": "48"
+    },
+    {
+      "version": "v0.17.3",
+      "modules": "48"
+    },
+    {
+      "version": "v0.17.2",
+      "modules": "48"
+    },
+    {
+      "version": "v0.18.0-beta1",
+      "modules": "48"
+    },
+    {
+      "version": "v0.17.1",
+      "modules": "48"
+    },
+    {
+      "version": "v0.17.0",
+      "modules": "48"
+    },
+    {
+      "version": "v0.17.0-beta2",
+      "modules": "48"
+    },
+    {
+      "version": "v0.17.0-beta1",
+      "modules": "48"
+    },
+    {
+      "version": "v0.16.1",
+      "modules": "48"
+    },
+    {
+      "version": "v0.14.7",
+      "modules": "47"
+    },
+    {
+      "version": "v0.16.0",
+      "modules": "48"
+    },
+    {
+      "version": "v0.16.0-rc2",
+      "modules": "48"
+    },
+    {
+      "version": "v0.16.0-rc1",
+      "modules": "48"
+    },
+    {
+      "version": "v0.15.4",
+      "modules": "48"
+    },
+    {
+      "version": "v0.16.0-beta2",
+      "modules": "48"
+    },
+    {
+      "version": "v0.15.3",
+      "modules": "48"
+    },
+    {
+      "version": "v0.15.2",
+      "modules": "48"
+    },
+    {
+      "version": "v0.16.0-beta1",
+      "modules": "48"
+    },
+    {
+      "version": "v0.15.1",
+      "modules": "48"
+    },
+    {
+      "version": "v0.14.6",
+      "modules": "47"
+    },
+    {
+      "version": "v0.15.0",
+      "modules": "48"
+    },
+    {
+      "version": "v0.15.0-rc2",
+      "modules": "48"
+    },
+    {
+      "version": "v0.14.5",
+      "modules": "47"
+    },
+    {
+      "version": "v0.14.4",
+      "modules": "47"
+    },
+    {
+      "version": "v0.15.0-rc1",
+      "modules": "48"
+    },
+    {
+      "version": "v0.15.0-beta2",
+      "modules": "48"
+    },
+    {
+      "version": "v0.14.3",
+      "modules": "47"
+    },
+    {
+      "version": "v0.15.0-beta1",
+      "modules": "48"
+    },
+    {
+      "version": "v0.14.2",
+      "modules": "47"
+    },
+    {
+      "version": "v0.14.1",
+      "modules": "47"
+    },
+    {
+      "version": "v0.14.0",
+      "modules": "47"
+    },
+    {
+      "version": "v0.13.4",
+      "modules": "47"
+    },
+    {
+      "version": "v0.14.0-rc3",
+      "modules": "47"
+    },
+    {
+      "version": "v0.13.3",
+      "modules": "47"
+    },
+    {
+      "version": "v0.14.0-rc2",
+      "modules": "47"
+    },
+    {
+      "version": "v0.14.0-rc1",
+      "modules": "47"
+    },
+    {
+      "version": "v0.13.2",
+      "modules": "47"
+    },
+    {
+      "version": "v0.13.1",
+      "modules": "47"
+    },
+    {
+      "version": "v0.13.0",
+      "modules": "47"
+    },
+    {
+      "version": "v0.13.0-rc4",
+      "modules": "47"
+    },
+    {
+      "version": "v0.13.0-rc3",
+      "modules": "47"
+    },
+    {
+      "version": "v0.13.0-rc2",
+      "modules": "47"
+    },
+    {
+      "version": "v0.13.0-rc1",
+      "modules": "47"
+    },
+    {
+      "version": "v0.13.0-beta7",
+      "modules": "47"
+    },
+    {
+      "version": "v0.13.0-beta6",
+      "modules": "47"
+    },
+    {
+      "version": "v0.13.0-beta5",
+      "modules": "47"
+    },
+    {
+      "version": "v0.13.0-beta4",
+      "modules": "47"
+    },
+    {
+      "version": "v0.13.0-beta3",
+      "modules": "47"
+    },
+    {
+      "version": "v0.13.0-beta2",
+      "modules": "47"
+    },
+    {
+      "version": "v0.13.0-beta1",
+      "modules": "47"
+    },
+    {
+      "version": "v0.12.3",
+      "modules": "43"
+    }
+  ],
+  "electrom": [
+    {
+      "version": "8.0.0-nightly.20190810",
+      "modules": "76"
+    },
+    {
+      "version": "8.0.0-nightly.20190809",
+      "modules": "76"
+    },
+    {
+      "version": "8.0.0-nightly.20190808",
+      "modules": "76"
+    },
+    {
+      "version": "8.0.0-nightly.20190807",
+      "modules": "76"
+    },
+    {
+      "version": "8.0.0-nightly.20190806",
+      "modules": "76"
+    },
+    {
+      "version": "8.0.0-nightly.20190803",
+      "modules": "76"
+    },
+    {
+      "version": "8.0.0-nightly.20190802",
+      "modules": "76"
+    },
+    {
+      "version": "8.0.0-nightly.20190801",
+      "modules": "76"
+    },
+    {
+      "version": "7.0.0-nightly.20190731",
+      "modules": "75"
+    },
+    {
+      "version": "7.0.0-nightly.20190730",
+      "modules": "75"
+    },
+    {
+      "version": "7.0.0-nightly.20190729",
+      "modules": "75"
+    },
+    {
+      "version": "7.0.0-nightly.20190728",
+      "modules": "75"
+    },
+    {
+      "version": "7.0.0-nightly.20190727",
+      "modules": "75"
+    },
+    {
+      "version": "7.0.0-nightly.20190726",
+      "modules": "75"
+    },
+    {
+      "version": "7.0.0-nightly.20190721",
+      "modules": "73"
+    },
+    {
+      "version": "7.0.0-nightly.20190720",
+      "modules": "73"
+    },
+    {
+      "version": "7.0.0-nightly.20190719",
+      "modules": "73"
+    },
+    {
+      "version": "7.0.0-nightly.20190705",
+      "modules": "73"
+    },
+    {
+      "version": "7.0.0-nightly.20190704",
+      "modules": "73"
+    },
+    {
+      "version": "7.0.0-nightly.20190702",
+      "modules": "73"
+    },
+    {
+      "version": "7.0.0-nightly.20190701",
+      "modules": "73"
+    },
+    {
+      "version": "7.0.0-nightly.20190630",
+      "modules": "73"
+    },
+    {
+      "version": "7.0.0-nightly.20190629",
+      "modules": "73"
+    },
+    {
+      "version": "7.0.0-nightly.20190627",
+      "modules": "73"
+    },
+    {
+      "version": "7.0.0-nightly.20190624",
+      "modules": "73"
+    },
+    {
+      "version": "7.0.0-nightly.20190623",
+      "modules": "73"
+    },
+    {
+      "version": "7.0.0-nightly.20190622",
+      "modules": "73"
+    },
+    {
+      "version": "7.0.0-nightly.20190619",
+      "modules": "73"
+    },
+    {
+      "version": "7.0.0-nightly.20190618",
+      "modules": "73"
+    },
+    {
+      "version": "7.0.0-nightly.20190616",
+      "modules": "73"
+    },
+    {
+      "version": "7.0.0-nightly.20190615",
+      "modules": "73"
+    },
+    {
+      "version": "7.0.0-nightly.20190613",
+      "modules": "73"
+    },
+    {
+      "version": "7.0.0-nightly.20190612",
+      "modules": "73"
+    },
+    {
+      "version": "7.0.0-nightly.20190611",
+      "modules": "73"
+    },
+    {
+      "version": "7.0.0-nightly.20190609",
+      "modules": "73"
+    },
+    {
+      "version": "7.0.0-nightly.20190608",
+      "modules": "73"
+    },
+    {
+      "version": "7.0.0-nightly.20190607",
+      "modules": "73"
+    },
+    {
+      "version": "7.0.0-nightly.20190606",
+      "modules": "73"
+    },
+    {
+      "version": "7.0.0-nightly.20190605",
+      "modules": "73"
+    },
+    {
+      "version": "7.0.0-nightly.20190604",
+      "modules": "73"
+    },
+    {
+      "version": "7.0.0-nightly.20190603",
+      "modules": "73"
+    },
+    {
+      "version": "7.0.0-nightly.20190602",
+      "modules": "73"
+    },
+    {
+      "version": "7.0.0-nightly.20190531",
+      "modules": "73"
+    },
+    {
+      "version": "7.0.0-nightly.20190530",
+      "modules": "73"
+    },
+    {
+      "version": "7.0.0-nightly.20190529",
+      "modules": "73"
+    },
+    {
+      "version": "7.0.0-nightly.20190521",
+      "modules": "73"
+    },
+    {
+      "version": "7.0.0-beta.2",
+      "modules": "75"
+    },
+    {
+      "version": "7.0.0-beta.1",
+      "modules": "75"
+    },
+    {
+      "version": "6.0.1",
+      "modules": "73"
+    },
+    {
+      "version": "6.0.0",
+      "modules": "73"
+    },
+    {
+      "version": "6.0.0-nightly.20190311",
+      "modules": "68"
+    },
+    {
+      "version": "6.0.0-nightly.20190213",
+      "modules": "68"
+    },
+    {
+      "version": "6.0.0-nightly.20190212",
+      "modules": "68"
+    },
+    {
+      "version": "6.0.0-beta.15",
+      "modules": "73"
+    },
+    {
+      "version": "6.0.0-beta.14",
+      "modules": "73"
+    },
+    {
+      "version": "6.0.0-beta.13",
+      "modules": "73"
+    },
+    {
+      "version": "6.0.0-beta.12",
+      "modules": "73"
+    },
+    {
+      "version": "6.0.0-beta.11",
+      "modules": "73"
+    },
+    {
+      "version": "6.0.0-beta.10",
+      "modules": "73"
+    },
+    {
+      "version": "6.0.0-beta.9",
+      "modules": "73"
+    },
+    {
+      "version": "6.0.0-beta.8",
+      "modules": "73"
+    },
+    {
+      "version": "6.0.0-beta.7",
+      "modules": "73"
+    },
+    {
+      "version": "6.0.0-beta.6",
+      "modules": "73"
+    },
+    {
+      "version": "6.0.0-beta.5",
+      "modules": "73"
+    },
+    {
+      "version": "6.0.0-beta.4",
+      "modules": "73"
+    },
+    {
+      "version": "6.0.0-beta.3",
+      "modules": "73"
+    },
+    {
+      "version": "6.0.0-beta.2",
+      "modules": "73"
+    },
+    {
+      "version": "6.0.0-beta.1",
+      "modules": "73"
+    },
+    {
+      "version": "5.0.9",
+      "modules": "70"
+    },
+    {
+      "version": "5.0.8",
+      "modules": "70"
+    },
+    {
+      "version": "5.0.7",
+      "modules": "70"
+    },
+    {
+      "version": "5.0.6",
+      "modules": "70"
+    },
+    {
+      "version": "5.0.5",
+      "modules": "70"
+    },
+    {
+      "version": "5.0.4",
+      "modules": "70"
+    },
+    {
+      "version": "5.0.3",
+      "modules": "70"
+    },
+    {
+      "version": "5.0.2",
+      "modules": "70"
+    },
+    {
+      "version": "5.0.1",
+      "modules": "70"
+    },
+    {
+      "version": "5.0.0",
+      "modules": "70"
+    },
+    {
+      "version": "5.0.0-nightly.20190122",
+      "modules": "68"
+    },
+    {
+      "version": "5.0.0-nightly.20190121",
+      "modules": "68"
+    },
+    {
+      "version": "5.0.0-nightly.20190107",
+      "modules": "67"
+    },
+    {
+      "version": "5.0.0-beta.9",
+      "modules": "70"
+    },
+    {
+      "version": "5.0.0-beta.8",
+      "modules": "68"
+    },
+    {
+      "version": "5.0.0-beta.7",
+      "modules": "68"
+    },
+    {
+      "version": "5.0.0-beta.6",
+      "modules": "68"
+    },
+    {
+      "version": "5.0.0-beta.5",
+      "modules": "68"
+    },
+    {
+      "version": "5.0.0-beta.4",
+      "modules": "68"
+    },
+    {
+      "version": "5.0.0-beta.3",
+      "modules": "68"
+    },
+    {
+      "version": "5.0.0-beta.2",
+      "modules": "68"
+    },
+    {
+      "version": "5.0.0-beta.1",
+      "modules": "68"
+    },
+    {
+      "version": "4.2.9",
+      "modules": "69"
+    },
+    {
+      "version": "4.2.8",
+      "modules": "69"
+    },
+    {
+      "version": "4.2.7",
+      "modules": "69"
+    },
+    {
+      "version": "4.2.6",
+      "modules": "69"
+    },
+    {
+      "version": "4.2.5",
+      "modules": "69"
+    },
+    {
+      "version": "4.2.4",
+      "modules": "69"
+    },
+    {
+      "version": "4.2.3",
+      "modules": "69"
+    },
+    {
+      "version": "4.2.2",
+      "modules": "69"
+    },
+    {
+      "version": "4.2.1",
+      "modules": "69"
+    },
+    {
+      "version": "4.2.0",
+      "modules": "69"
+    },
+    {
+      "version": "4.1.5",
+      "modules": "69"
+    },
+    {
+      "version": "4.1.4",
+      "modules": "69"
+    },
+    {
+      "version": "4.1.3",
+      "modules": "69"
+    },
+    {
+      "version": "4.1.2",
+      "modules": "69"
+    },
+    {
+      "version": "4.1.1",
+      "modules": "69"
+    },
+    {
+      "version": "4.1.0",
+      "modules": "69"
+    },
+    {
+      "version": "4.0.8",
+      "modules": "69"
+    },
+    {
+      "version": "4.0.7",
+      "modules": "69"
+    },
+    {
+      "version": "4.0.6",
+      "modules": "69"
+    },
+    {
+      "version": "4.0.5",
+      "modules": "69"
+    },
+    {
+      "version": "4.0.4",
+      "modules": "69"
+    },
+    {
+      "version": "4.0.3",
+      "modules": "64"
+    },
+    {
+      "version": "4.0.2",
+      "modules": "64"
+    },
+    {
+      "version": "4.0.1",
+      "modules": "64"
+    },
+    {
+      "version": "4.0.0",
+      "modules": "64"
+    },
+    {
+      "version": "4.0.0-nightly.20181010",
+      "modules": "64"
+    },
+    {
+      "version": "4.0.0-nightly.20181006",
+      "modules": "64"
+    },
+    {
+      "version": "4.0.0-nightly.20180929",
+      "modules": "64"
+    },
+    {
+      "version": "4.0.0-nightly.20180821",
+      "modules": "64"
+    },
+    {
+      "version": "4.0.0-nightly.20180819",
+      "modules": "64"
+    },
+    {
+      "version": "4.0.0-nightly.20180817",
+      "modules": "64"
+    },
+    {
+      "version": "4.0.0-beta.11",
+      "modules": "64"
+    },
+    {
+      "version": "4.0.0-beta.10",
+      "modules": "64"
+    },
+    {
+      "version": "4.0.0-beta.9",
+      "modules": "64"
+    },
+    {
+      "version": "4.0.0-beta.8",
+      "modules": "64"
+    },
+    {
+      "version": "4.0.0-beta.7",
+      "modules": "64"
+    },
+    {
+      "version": "4.0.0-beta.6",
+      "modules": "64"
+    },
+    {
+      "version": "4.0.0-beta.5",
+      "modules": "64"
+    },
+    {
+      "version": "4.0.0-beta.4",
+      "modules": "64"
+    },
+    {
+      "version": "4.0.0-beta.3",
+      "modules": "64"
+    },
+    {
+      "version": "4.0.0-beta.2",
+      "modules": "64"
+    },
+    {
+      "version": "4.0.0-beta.1",
+      "modules": "64"
+    },
+    {
+      "version": "3.1.13",
+      "modules": "64"
+    },
+    {
+      "version": "3.1.12",
+      "modules": "64"
+    },
+    {
+      "version": "3.1.11",
+      "modules": "64"
+    },
+    {
+      "version": "3.1.10",
+      "modules": "64"
+    },
+    {
+      "version": "3.1.9",
+      "modules": "64"
+    },
+    {
+      "version": "3.1.8",
+      "modules": "64"
+    },
+    {
+      "version": "3.1.7",
+      "modules": "64"
+    },
+    {
+      "version": "3.1.6",
+      "modules": "64"
+    },
+    {
+      "version": "3.1.5",
+      "modules": "64"
+    },
+    {
+      "version": "3.1.4",
+      "modules": "64"
+    },
+    {
+      "version": "3.1.3",
+      "modules": "64"
+    },
+    {
+      "version": "3.1.2",
+      "modules": "64"
+    },
+    {
+      "version": "3.1.1",
+      "modules": "64"
+    },
+    {
+      "version": "3.1.0",
+      "modules": "64"
+    },
+    {
+      "version": "3.1.0-beta.5",
+      "modules": "64"
+    },
+    {
+      "version": "3.1.0-beta.4",
+      "modules": "64"
+    },
+    {
+      "version": "3.1.0-beta.3",
+      "modules": "64"
+    },
+    {
+      "version": "3.1.0-beta.2",
+      "modules": "64"
+    },
+    {
+      "version": "3.1.0-beta.1",
+      "modules": "64"
+    },
+    {
+      "version": "3.0.16",
+      "modules": "64"
+    },
+    {
+      "version": "3.0.15",
+      "modules": "64"
+    },
+    {
+      "version": "3.0.14",
+      "modules": "64"
+    },
+    {
+      "version": "3.0.13",
+      "modules": "64"
+    },
+    {
+      "version": "3.0.12",
+      "modules": "64"
+    },
+    {
+      "version": "3.0.11",
+      "modules": "64"
+    },
+    {
+      "version": "3.0.10",
+      "modules": "64"
+    },
+    {
+      "version": "3.0.9",
+      "modules": "64"
+    },
+    {
+      "version": "3.0.8",
+      "modules": "64"
+    },
+    {
+      "version": "3.0.7",
+      "modules": "64"
+    },
+    {
+      "version": "3.0.6",
+      "modules": "64"
+    },
+    {
+      "version": "3.0.5",
+      "modules": "64"
+    },
+    {
+      "version": "3.0.4",
+      "modules": "64"
+    },
+    {
+      "version": "3.0.3",
+      "modules": "64"
+    },
+    {
+      "version": "3.0.2",
+      "modules": "64"
+    },
+    {
+      "version": "3.0.1",
+      "modules": "64"
+    },
+    {
+      "version": "3.0.0",
+      "modules": "64"
+    },
+    {
+      "version": "3.0.0-nightly.20180904",
+      "modules": "64"
+    },
+    {
+      "version": "3.0.0-nightly.20180823",
+      "modules": "64"
+    },
+    {
+      "version": "3.0.0-nightly.20180821",
+      "modules": "64"
+    },
+    {
+      "version": "3.0.0-nightly.20180818",
+      "modules": "64"
+    },
+    {
+      "version": "3.0.0-beta.13",
+      "modules": "64"
+    },
+    {
+      "version": "3.0.0-beta.12",
+      "modules": "64"
+    },
+    {
+      "version": "3.0.0-beta.11",
+      "modules": "64"
+    },
+    {
+      "version": "3.0.0-beta.10",
+      "modules": "64"
+    },
+    {
+      "version": "3.0.0-beta.9",
+      "modules": "64"
+    },
+    {
+      "version": "3.0.0-beta.8",
+      "modules": "64"
+    },
+    {
+      "version": "3.0.0-beta.7",
+      "modules": "64"
+    },
+    {
+      "version": "3.0.0-beta.6",
+      "modules": "64"
+    },
+    {
+      "version": "3.0.0-beta.5",
+      "modules": "64"
+    },
+    {
+      "version": "3.0.0-beta.4",
+      "modules": "64"
+    },
+    {
+      "version": "3.0.0-beta.3",
+      "modules": "64"
+    },
+    {
+      "version": "3.0.0-beta.2",
+      "modules": "64"
+    },
+    {
+      "version": "3.0.0-beta.1",
+      "modules": "64"
+    },
+    {
+      "version": "2.1.0-unsupported.20180809",
+      "modules": "57"
+    },
+    {
+      "version": "2.0.18",
+      "modules": "57"
+    },
+    {
+      "version": "2.0.17",
+      "modules": "57"
+    },
+    {
+      "version": "2.0.16",
+      "modules": "57"
+    },
+    {
+      "version": "2.0.15",
+      "modules": "57"
+    },
+    {
+      "version": "2.0.14",
+      "modules": "57"
+    },
+    {
+      "version": "2.0.13",
+      "modules": "57"
+    },
+    {
+      "version": "2.0.12",
+      "modules": "57"
+    },
+    {
+      "version": "2.0.11",
+      "modules": "57"
+    },
+    {
+      "version": "2.0.10",
+      "modules": "57"
+    },
+    {
+      "version": "2.0.9",
+      "modules": "57"
+    },
+    {
+      "version": "2.0.8",
+      "modules": "57"
+    },
+    {
+      "version": "2.0.8-nightly.20180820",
+      "modules": "57"
+    },
+    {
+      "version": "2.0.8-nightly.20180819",
+      "modules": "57"
+    },
+    {
+      "version": "2.0.7",
+      "modules": "57"
+    },
+    {
+      "version": "2.0.6",
+      "modules": "57"
+    },
+    {
+      "version": "2.0.5",
+      "modules": "57"
+    },
+    {
+      "version": "2.0.4",
+      "modules": "57"
+    },
+    {
+      "version": "2.0.3",
+      "modules": "57"
+    },
+    {
+      "version": "2.0.2",
+      "modules": "57"
+    },
+    {
+      "version": "2.0.1",
+      "modules": "57"
+    },
+    {
+      "version": "2.0.0",
+      "modules": "57"
+    },
+    {
+      "version": "2.0.0-beta.8",
+      "modules": "57"
+    },
+    {
+      "version": "2.0.0-beta.7",
+      "modules": "57"
+    },
+    {
+      "version": "2.0.0-beta.6",
+      "modules": "57"
+    },
+    {
+      "version": "2.0.0-beta.5",
+      "modules": "57"
+    },
+    {
+      "version": "2.0.0-beta.4",
+      "modules": "57"
+    },
+    {
+      "version": "2.0.0-beta.3",
+      "modules": "57"
+    },
+    {
+      "version": "2.0.0-beta.2",
+      "modules": "57"
+    },
+    {
+      "version": "2.0.0-beta.1",
+      "modules": "57"
+    },
+    {
+      "version": "1.8.8",
+      "modules": "57"
+    },
+    {
+      "version": "1.8.7",
+      "modules": "57"
+    },
+    {
+      "version": "1.8.6",
+      "modules": "57"
+    },
+    {
+      "version": "1.8.5",
+      "modules": "57"
+    },
+    {
+      "version": "1.8.4",
+      "modules": "57"
+    },
+    {
+      "version": "1.8.3",
+      "modules": "57"
+    },
+    {
+      "version": "1.8.2",
+      "modules": "57"
+    },
+    {
+      "version": "1.8.2-beta.5",
+      "modules": "57"
+    },
+    {
+      "version": "1.8.2-beta.4",
+      "modules": "57"
+    },
+    {
+      "version": "1.8.2-beta.3",
+      "modules": "57"
+    },
+    {
+      "version": "1.8.2-beta.2",
+      "modules": "57"
+    },
+    {
+      "version": "1.8.2-beta.1",
+      "modules": "57"
+    },
+    {
+      "version": "1.8.1",
+      "modules": "57"
+    },
+    {
+      "version": "1.8.0",
+      "modules": "57"
+    },
+    {
+      "version": "1.7.16",
+      "modules": "54"
+    },
+    {
+      "version": "1.7.15",
+      "modules": "54"
+    },
+    {
+      "version": "1.7.14",
+      "modules": "54"
+    },
+    {
+      "version": "1.7.13",
+      "modules": "54"
+    },
+    {
+      "version": "1.7.12",
+      "modules": "54"
+    },
+    {
+      "version": "1.7.11",
+      "modules": "54"
+    },
+    {
+      "version": "1.7.10",
+      "modules": "54"
+    },
+    {
+      "version": "1.7.9",
+      "modules": "54"
+    },
+    {
+      "version": "1.7.8",
+      "modules": "54"
+    },
+    {
+      "version": "1.7.7",
+      "modules": "54"
+    },
+    {
+      "version": "1.7.6",
+      "modules": "54"
+    },
+    {
+      "version": "1.7.5",
+      "modules": "54"
+    },
+    {
+      "version": "1.7.4",
+      "modules": "54"
+    },
+    {
+      "version": "1.7.3",
+      "modules": "54"
+    },
+    {
+      "version": "1.7.2",
+      "modules": "54"
+    },
+    {
+      "version": "1.7.1",
+      "modules": "54"
+    },
+    {
+      "version": "1.7.0",
+      "modules": "54"
+    },
+    {
+      "version": "1.6.18",
+      "modules": "53"
+    },
+    {
+      "version": "1.6.17",
+      "modules": "53"
+    },
+    {
+      "version": "1.6.16",
+      "modules": "53"
+    },
+    {
+      "version": "1.6.15",
+      "modules": "53"
+    },
+    {
+      "version": "1.6.14",
+      "modules": "53"
+    },
+    {
+      "version": "1.6.13",
+      "modules": "53"
+    },
+    {
+      "version": "1.6.12",
+      "modules": "53"
+    },
+    {
+      "version": "1.6.11",
+      "modules": "53"
+    },
+    {
+      "version": "1.6.10",
+      "modules": "53"
+    },
+    {
+      "version": "1.6.9",
+      "modules": "53"
+    },
+    {
+      "version": "1.6.8",
+      "modules": "53"
+    },
+    {
+      "version": "1.6.7",
+      "modules": "53"
+    },
+    {
+      "version": "1.6.6",
+      "modules": "53"
+    },
+    {
+      "version": "1.6.5",
+      "modules": "53"
+    },
+    {
+      "version": "1.6.4",
+      "modules": "53"
+    },
+    {
+      "version": "1.6.3",
+      "modules": "53"
+    },
+    {
+      "version": "1.6.2",
+      "modules": "53"
+    },
+    {
+      "version": "1.6.1",
+      "modules": "53"
+    },
+    {
+      "version": "1.6.0",
+      "modules": "53"
+    },
+    {
+      "version": "1.5.1",
+      "modules": "51"
+    },
+    {
+      "version": "1.5.0",
+      "modules": "51"
+    },
+    {
+      "version": "1.4.16",
+      "modules": "50"
+    },
+    {
+      "version": "1.4.15",
+      "modules": "50"
+    },
+    {
+      "version": "1.4.14",
+      "modules": "50"
+    },
+    {
+      "version": "1.4.13",
+      "modules": "50"
+    },
+    {
+      "version": "1.4.12",
+      "modules": "50"
+    },
+    {
+      "version": "1.4.11",
+      "modules": "50"
+    },
+    {
+      "version": "1.4.10",
+      "modules": "50"
+    },
+    {
+      "version": "1.4.8",
+      "modules": "50"
+    },
+    {
+      "version": "1.4.7",
+      "modules": "50"
+    },
+    {
+      "version": "1.4.6",
+      "modules": "50"
+    },
+    {
+      "version": "1.4.5",
+      "modules": "50"
+    },
+    {
+      "version": "1.4.4",
+      "modules": "50"
+    },
+    {
+      "version": "1.4.3",
+      "modules": "50"
+    },
+    {
+      "version": "1.4.2",
+      "modules": "50"
+    },
+    {
+      "version": "1.4.1",
+      "modules": "50"
+    },
+    {
+      "version": "1.4.0",
+      "modules": "50"
+    },
+    {
+      "version": "1.3.15",
+      "modules": "49"
+    },
+    {
+      "version": "1.3.14",
+      "modules": "49"
+    },
+    {
+      "version": "1.3.13",
+      "modules": "49"
+    },
+    {
+      "version": "1.3.10",
+      "modules": "49"
+    },
+    {
+      "version": "1.3.9",
+      "modules": "49"
+    },
+    {
+      "version": "1.3.7",
+      "modules": "49"
+    },
+    {
+      "version": "1.3.6",
+      "modules": "49"
+    },
+    {
+      "version": "1.3.5",
+      "modules": "49"
+    },
+    {
+      "version": "1.3.4",
+      "modules": "49"
+    },
+    {
+      "version": "1.3.3",
+      "modules": "49"
+    },
+    {
+      "version": "1.3.2",
+      "modules": "49"
+    },
+    {
+      "version": "1.3.1",
+      "modules": "49"
+    },
+    {
+      "version": "1.3.0",
+      "modules": "49"
+    },
+    {
+      "version": "1.2.8",
+      "modules": "48"
+    },
+    {
+      "version": "1.2.7",
+      "modules": "48"
+    },
+    {
+      "version": "1.2.6",
+      "modules": "48"
+    },
+    {
+      "version": "1.2.5",
+      "modules": "48"
+    },
+    {
+      "version": "1.2.4",
+      "modules": "48"
+    },
+    {
+      "version": "1.2.3",
+      "modules": "48"
+    },
+    {
+      "version": "1.2.2",
+      "modules": "48"
+    },
+    {
+      "version": "1.2.1",
+      "modules": "48"
+    },
+    {
+      "version": "1.2.0",
+      "modules": "48"
+    },
+    {
+      "version": "1.1.3",
+      "modules": "48"
+    },
+    {
+      "version": "1.1.2",
+      "modules": "48"
+    },
+    {
+      "version": "1.1.1",
+      "modules": "48"
+    },
+    {
+      "version": "1.1.0",
+      "modules": "48"
+    },
+    {
+      "version": "1.0.2",
+      "modules": "47"
+    },
+    {
+      "version": "1.0.1",
+      "modules": "47"
+    },
+    {
+      "version": "1.0.0",
+      "modules": "47"
+    },
+    {
+      "version": "0.37.8",
+      "modules": "47"
+    },
+    {
+      "version": "0.37.7",
+      "modules": "47"
+    },
+    {
+      "version": "0.37.6",
+      "modules": "47"
+    },
+    {
+      "version": "0.37.5",
+      "modules": "47"
+    },
+    {
+      "version": "0.37.4",
+      "modules": "47"
+    },
+    {
+      "version": "0.37.3",
+      "modules": "47"
+    },
+    {
+      "version": "0.37.1",
+      "modules": "47"
+    },
+    {
+      "version": "0.37.0",
+      "modules": "47"
+    },
+    {
+      "version": "0.36.12",
+      "modules": "47"
+    },
+    {
+      "version": "0.36.11",
+      "modules": "47"
+    },
+    {
+      "version": "0.36.10",
+      "modules": "47"
+    },
+    {
+      "version": "0.36.9",
+      "modules": "47"
+    },
+    {
+      "version": "0.36.8",
+      "modules": "47"
+    },
+    {
+      "version": "0.36.7",
+      "modules": "47"
+    },
+    {
+      "version": "0.36.6",
+      "modules": "47"
+    },
+    {
+      "version": "0.36.5",
+      "modules": "47"
+    },
+    {
+      "version": "0.36.4",
+      "modules": "47"
+    },
+    {
+      "version": "0.36.3",
+      "modules": "47"
+    },
+    {
+      "version": "0.36.2",
+      "modules": "47"
+    },
+    {
+      "version": "0.36.0",
+      "modules": "47"
+    },
+    {
+      "version": "0.35.5",
+      "modules": "46"
+    },
+    {
+      "version": "0.35.4",
+      "modules": "46"
+    },
+    {
+      "version": "0.35.3",
+      "modules": "46"
+    },
+    {
+      "version": "0.35.2",
+      "modules": "46"
+    },
+    {
+      "version": "0.35.1",
+      "modules": "46"
+    },
+    {
+      "version": "0.34.4",
+      "modules": "46"
+    },
+    {
+      "version": "0.34.3",
+      "modules": "46"
+    },
+    {
+      "version": "0.34.2",
+      "modules": "46"
+    },
+    {
+      "version": "0.34.1",
+      "modules": "46"
+    },
+    {
+      "version": "0.34.0",
+      "modules": "46"
+    },
+    {
+      "version": "0.33.9",
+      "modules": "46"
+    },
+    {
+      "version": "0.33.8",
+      "modules": "46"
+    },
+    {
+      "version": "0.33.7",
+      "modules": "46"
+    },
+    {
+      "version": "0.33.6",
+      "modules": "46"
+    },
+    {
+      "version": "0.33.4",
+      "modules": "46"
+    },
+    {
+      "version": "0.33.3",
+      "modules": "46"
+    },
+    {
+      "version": "0.33.2",
+      "modules": "46"
+    },
+    {
+      "version": "0.33.1",
+      "modules": "46"
+    },
+    {
+      "version": "0.33.0",
+      "modules": "46"
+    },
+    {
+      "version": "0.32.3",
+      "modules": "46"
+    },
+    {
+      "version": "0.32.2",
+      "modules": "45"
+    },
+    {
+      "version": "0.31.2",
+      "modules": "45"
+    },
+    {
+      "version": "0.31.0",
+      "modules": "45"
+    },
+    {
+      "version": "0.30.4",
+      "modules": "45"
+    },
+    {
+      "version": "0.29.2",
+      "modules": "44"
+    },
+    {
+      "version": "0.29.1",
+      "modules": "44"
+    },
+    {
+      "version": "0.28.3",
+      "modules": "44"
+    },
+    {
+      "version": "0.28.2",
+      "modules": "44"
+    },
+    {
+      "version": "0.28.1",
+      "modules": "44"
+    },
+    {
+      "version": "0.28.0",
+      "modules": "44"
+    },
+    {
+      "version": "0.27.3",
+      "modules": "43"
+    },
+    {
+      "version": "0.27.2",
+      "modules": "43"
+    },
+    {
+      "version": "0.27.1",
+      "modules": "43"
+    },
+    {
+      "version": "0.27.0",
+      "modules": "43"
+    },
+    {
+      "version": "0.26.1",
+      "modules": "43"
+    },
+    {
+      "version": "0.26.0",
+      "modules": "43"
+    },
+    {
+      "version": "0.25.3",
+      "modules": "43"
+    },
+    {
+      "version": "0.25.2",
+      "modules": "43"
+    },
+    {
+      "version": "0.25.1",
+      "modules": "43"
+    },
+    {
+      "version": "0.25.0",
+      "modules": "43"
+    },
+    {
+      "version": "0.24.0",
+      "modules": "43"
+    },
+    {
+      "version": "0.23.0",
+      "modules": "43"
+    },
+    {
+      "version": "0.22.3",
+      "modules": "43"
+    },
+    {
+      "version": "0.22.2",
+      "modules": "43"
+    },
+    {
+      "version": "0.22.1",
+      "modules": "43"
+    },
+    {
+      "version": "0.21.3",
+      "modules": "43"
+    },
+    {
+      "version": "0.21.2",
+      "modules": "41"
+    },
+    {
+      "version": "0.21.1",
+      "modules": "41"
+    },
+    {
+      "version": "0.21.0",
+      "modules": "41"
+    },
+    {
+      "version": "0.20.8",
+      "modules": "17"
+    },
+    {
+      "version": "0.20.7",
+      "modules": "17"
+    },
+    {
+      "version": "0.20.6",
+      "modules": "17"
+    },
+    {
+      "version": "0.20.5",
+      "modules": "17"
+    },
+    {
+      "version": "0.20.4",
+      "modules": "17"
+    },
+    {
+      "version": "0.20.3",
+      "modules": "17"
+    },
+    {
+      "version": "0.20.2",
+      "modules": "17"
+    },
+    {
+      "version": "0.20.1",
+      "modules": "17"
+    },
+    {
+      "version": "0.20.0",
+      "modules": "17"
+    }
+  ]
+}
