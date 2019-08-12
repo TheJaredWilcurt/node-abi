@@ -1,3 +1,4 @@
+const semver = require('semver');
 let dummy;
 let releases;
 try {
@@ -27,7 +28,7 @@ function cleanAbi (abi) {
 }
 
 function cleanRunTime (runTime) {
-  if (typeof(runTime) !== 'string') {
+  if (!runTime || typeof(runTime) !== 'string') {
     return 'node';
   }
 
@@ -115,9 +116,16 @@ function getAbi (version, runTime) {
 
   let release = false;
 
-  release = releases[runTime].find(function (release) {
-    return release.version === version;
-  });
+  // List is sorted newest to oldest.
+  // Find closest or exact match without going over.
+  // 'v6.7.1' => { version: 'v6.7.1', modules: '48' }
+  // 'v6.9.9' => { version: 'v6.7.1', modules: '48' }
+  for (let i = (releases[runTime].length - 1); i > -1; i--) {
+    let currentRelease = releases[runTime][i];
+    if (semver.lte(currentRelease.version, version)) {
+      release = currentRelease;
+    }
+  }
 
   if (!release) {
     throw new Error(errorMessage);
@@ -139,6 +147,10 @@ function getTarget (abi, runTime) {
   abi = cleanAbi(abi);
   runTime = cleanRunTime(runTime);
 
+  if (!abi && runTime === 'node') {
+    return process.versions.node;
+  }
+
   if (!abi || !runTime) {
     throw new Error(errorMessage);
     return;
@@ -146,7 +158,19 @@ function getTarget (abi, runTime) {
 
   let release = false;
 
-  release = releases[runTime].find(function (release) {
+  const filteredReleases = releases[runTime].filter(function (release) {
+    return (
+      !release.version.includes('alpha') &&
+      !release.version.includes('beta') &&
+      !release.version.includes('rc') &&
+      !release.version.includes('nightly') &&
+      !release.version.includes('unsupported')
+    );
+  });
+
+  // Find newest stable release with matching ABI
+  // '48' => { version: 'v6.7.1', modules: '48' }
+  release = filteredReleases.find(function (release) {
     return release.modules === abi;
   });
 

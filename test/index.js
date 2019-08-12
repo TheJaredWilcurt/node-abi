@@ -3,8 +3,8 @@ const getAbi = require('../tjw.js').getAbi;
 const getTarget = require('../tjw.js').getTarget;
 
 Test('getTarget calculates correct Node target', function (test) {
-  test.throws(() => getTarget(undefined));
-  test.throws(() => getTarget(null));
+  test.equal(getTarget(undefined), process.versions.node);
+  test.equal(getTarget(null), process.versions.node);
   test.equal(getTarget('11'), 'v0.10.48');
   test.equal(getTarget('14'), 'v0.12.18');
   test.equal(getTarget('46'), 'v4.9.1');
@@ -25,7 +25,7 @@ Test('getTarget calculates correct NW.js target', function (test) {
   test.equal(getTarget('47', 'nw'), 'v0.14.7');
   test.equal(getTarget('48', 'nw'), 'v0.18.2');
   test.equal(getTarget('51', 'nw'), 'v0.22.3');
-  test.equal(getTarget('57', 'nw'), 'v0.27.0-beta1');
+  test.equal(getTarget('57', 'nw'), 'v0.26.2');
   test.equal(getTarget('59', 'nw'), 'v0.30.0');
   test.equal(getTarget('64', 'nw'), 'v0.33.4');
   test.equal(getTarget('67', 'nw'), 'v0.38.0');
@@ -34,11 +34,13 @@ Test('getTarget calculates correct NW.js target', function (test) {
 });
 
 Test('getTarget calculates correct Electrom target', function (test) {
+  test.equal(getTarget(undefined), process.versions.node);
+  test.equal(getTarget(null), process.versions.node);
   test.throws(getTarget.bind(null, '14', 'electrom'));
-  test.equal(getTarget('47', 'electrom'), '1.0.2');
-  test.equal(getTarget('48', 'electrom'), '1.2.8');
-  test.equal(getTarget('49', 'electrom'), '1.3.15');
-  test.equal(getTarget('50', 'electrom'), '1.4.16');
+  test.equal(getTarget('47', 'electrom'), 'v1.0.2');
+  test.equal(getTarget('48', 'electrom'), 'v1.2.8');
+  test.equal(getTarget('49', 'electrom'), 'v1.3.15');
+  test.equal(getTarget('50', 'electrom'), 'v1.4.16');
   test.end();
 });
 
@@ -60,18 +62,18 @@ Test('getAbi calculates correct Node ABI', function (test) {
   test.equal(getAbi('0.11.11'), '14');
   test.equal(getAbi('0.11.10'), '13');
   test.equal(getAbi('0.11.8'), '13');
-  test.equal(getAbi('0.11.7'), '0x000C');
-  test.equal(getAbi('0.11.0'), '0x000C');
+  test.equal(getAbi('0.11.7'), '12');
+  test.equal(getAbi('0.11.0'), '12');
   test.equal(getAbi('0.10.48'), '11');
   test.equal(getAbi('0.10.30'), '11');
   test.equal(getAbi('0.10.4'), '11');
-  test.equal(getAbi('0.10.3'), '0x000B');
-  test.equal(getAbi('0.10.1'), '0x000B');
-  test.equal(getAbi('0.10.0'), '0x000B');
-  test.equal(getAbi('0.9.12'), '0x000B');
-  test.equal(getAbi('0.9.9'), '0x000B');
-  test.equal(getAbi('0.9.8'), '0x000A');
-  test.equal(getAbi('0.9.1'), '0x000A');
+  test.equal(getAbi('0.10.3'), '11');
+  test.equal(getAbi('0.10.1'), '11');
+  test.equal(getAbi('0.10.0'), '11');
+  test.equal(getAbi('0.9.12'), '11');
+  test.equal(getAbi('0.9.9'), '11');
+  test.equal(getAbi('0.9.8'), '10');
+  test.equal(getAbi('0.9.1'), '10');
   test.equal(getAbi('0.9.0'), '1');
   test.equal(getAbi('0.8.0'), '1');
   test.equal(getAbi('0.2.0'), '1');
@@ -102,33 +104,34 @@ Test('getAbi calculates correct Electrom ABI', function (test) {
   test.end();
 });
 
-Test('getAbi calculates correct Node-Webkit ABI', function (test) {
-  test.throws(function () { getAbi(undefined, 'node-webkit') });
-  test.equal(getAbi('0.13.0', 'node-webkit'), '47');
-  test.equal(getAbi('0.14.0', 'node-webkit'), '47');
-  test.equal(getAbi('0.15.0', 'node-webkit'), '48');
-  test.equal(getAbi('0.16.0', 'node-webkit'), '48');
-  test.equal(getAbi('0.17.0', 'node-webkit'), '48');
-  test.equal(getAbi('0.18.2', 'node-webkit'), '48');
-  test.equal(getAbi('0.18.3', 'node-webkit'), '51');
-  test.equal(getAbi('0.19.0', 'node-webkit'), '51');
-  test.equal(getAbi('0.20.0', 'node-webkit'), '51');
-  test.equal(getAbi('0.21.0', 'node-webkit'), '51');
-  test.equal(getAbi('0.22.0', 'node-webkit'), '51');
-  test.equal(getAbi('0.23.0', 'node-webkit'), '57');
-  test.equal(getAbi('0.24.0', 'node-webkit'), '57');
-  test.equal(getAbi('0.25.0', 'node-webkit'), '57');
-  test.equal(getAbi('0.26.4', 'node-webkit'), '57');
-  test.equal(getAbi('0.26.5', 'node-webkit'), '59');
+Test('getAbi calculates correct NW.js ABI', function (test) {
+  test.throws(function () { getAbi(undefined, 'NW.js') });
+  test.equal(getAbi('0.13.0', 'NW.js'), '47');
+  test.equal(getAbi('0.14.0', 'NW.js'), '47');
+  test.equal(getAbi('0.15.0', 'NW.js'), '48');
+  test.equal(getAbi('0.16.0', 'NW.js'), '48');
+  test.equal(getAbi('0.17.0', 'NW.js'), '48');
+  test.equal(getAbi('0.18.2', 'NW.js'), '48');
+  test.equal(getAbi('0.18.3', 'NW.js'), '51');
+  test.equal(getAbi('0.19.0', 'NW.js'), '51');
+  test.equal(getAbi('0.20.0', 'NW.js'), '51');
+  test.equal(getAbi('0.21.0', 'NW.js'), '51');
+  test.equal(getAbi('0.22.0', 'NW.js'), '51');
+  test.equal(getAbi('0.23.0', 'NW.js'), '57');
+  test.equal(getAbi('0.24.0', 'NW.js'), '57');
+  test.equal(getAbi('0.25.0', 'NW.js'), '57');
+  test.equal(getAbi('0.26.4', 'NW.js'), '59');
+  test.equal(getAbi('0.26.5', 'NW.js'), '59');
   test.end();
 });
 
 Test('getAbi supports leading v', function (test) {
   test.equal(getAbi('v7.2.0'), '51');
+  test.equal(getAbi('7.2.0'), '51');
   test.end();
 });
 
-Test('getAbi returns abi if passed as target', function (test) {
-  test.equal(getAbi('57'), '57');
+Test('getAbi throws abi if passed as target', function (test) {
+  test.throws(() => getAbi('57'));
   test.end();
 });

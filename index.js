@@ -8,44 +8,71 @@ function getNextTarget (runtime, targets) {
 }
 
 function getAbi (target, runtime) {
-  if (target === String(Number(target))) return target
-  if (target) target = target.replace(/^v/, '')
-  if (!runtime) runtime = 'node'
+  if (target === String(Number(target))) {
+    return target;
+  }
+  if (target) {
+    target = target.replace(/^v/, '');
+  }
+  if (!runtime) {
+    runtime = 'node';
+  }
 
   if (runtime === 'node') {
-    if (!target) return process.versions.modules
-    if (target === process.versions.node) return process.versions.modules
+    if (!target) {
+      return process.versions.modules;
+    }
+    if (target === process.versions.node) {
+      return process.versions.modules;
+    }
   }
 
-  var abi
+  var abi;
 
   for (var i = 0; i < allTargets.length; i++) {
-    var t = allTargets[i]
-    if (t.runtime !== runtime) continue
-    if (semver.lte(t.target, target)) abi = t.abi
-    else break
+    var currentTarget = allTargets[i];
+    if (currentTarget.runtime !== runtime) {
+      continue;
+    }
+    if (semver.lte(currentTarget.target, target)) {
+      abi = currentTarget.abi;
+    } else {
+      break;
+    }
   }
 
-  if (abi && semver.lt(target, getNextTarget(runtime))) return abi
-  throw new Error('Could not detect abi for version ' + target + ' and runtime ' + runtime + '.  Updating "node-abi" might help solve this issue if it is a new release of ' + runtime)
+  if (abi && semver.lt(target, getNextTarget(runtime))) {
+    return abi;
+  }
+
+  throw new Error('Could not detect abi for version ' + target + ' and runtime ' + runtime + '.  Updating "node-abi" might help solve this issue if it is a new release of ' + runtime);
 }
 
 function getTarget (abi, runtime) {
-  if (abi && abi !== String(Number(abi))) return abi
-  if (!runtime) runtime = 'node'
+  if (abi && abi !== String(Number(abi))) {
+    return abi;
+  }
+  if (!runtime) {
+    runtime = 'node';
+  }
 
-  if (runtime === 'node' && !abi) return process.versions.node
+  if (runtime === 'node' && !abi) {
+    return process.versions.node;
+  }
 
   var match = allTargets
-    .filter(function (t) {
-      return t.abi === abi && t.runtime === runtime
+    .filter(function (target) {
+      return target.abi === abi && target.runtime === runtime;
     })
-    .map(function (t) {
-      return t.target
-    })
-  if (match.length) return match[0]
+    .map(function (target) {
+      return target.target;
+    });
 
-  throw new Error('Could not detect target for abi ' + abi + ' and runtime ' + runtime)
+  if (match.length) {
+    return match[0];
+  }
+
+  throw new Error('Could not detect target for abi ' + abi + ' and runtime ' + runtime);
 }
 
 var supportedTargets = [
