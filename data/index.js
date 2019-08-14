@@ -113,7 +113,8 @@ const allReleases = {
 };
 
 try {
-  require('fs').writeFileSync('./data.json', JSON.stringify(allReleases, null, 2) + '\n');
+  const file = require('path').join(__dirname, 'releases.json');
+  require('fs').writeFileSync(file, JSON.stringify(allReleases, null, 2) + '\n');
 } catch (err) {
   console.log(err);
 }

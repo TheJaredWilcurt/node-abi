@@ -1,6 +1,6 @@
 const Test = require('tape');
-const getAbi = require('../tjw.js').getAbi;
-const getTarget = require('../tjw.js').getTarget;
+const getAbi = require('../src/index.js').getAbi;
+const getTarget = require('../src/index.js').getTarget;
 
 Test('getTarget calculates correct Node target', function (test) {
   test.equal(getTarget(undefined), process.versions.node);
